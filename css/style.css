@@ -10,6 +10,12 @@ a {
 
 :root {
   --main-text-color: #424242;
+  --main-green-color: #01996d;
+}
+
+.header {
+  width: 100%;
+  border-bottom: 1px solid #d6d6d6;
 }
 
 .header__container {
@@ -59,12 +65,60 @@ a {
   cursor: pointer;
   font-family: "Lato", sans-serif;
   font-size: 18px;
-  width: 183px;
+  width: 185px;
   height: 51px;
   padding: 13px;
   transition: 0.5s;
 }
 
 .user-nav__button--hover:hover {
+  background-color: #00b884;
+}
+
+.get-started {
+  width: 100%;
+  height: 900px;
+  background: url("../img/background.png") no-repeat;
+  background-size: cover;
+}
+
+.get-started__container {
+  padding: 10px;
+}
+
+.get-started__text-wrapper {
+  position: absolute;
+  left: 170px;
+  top: 280px;
+}
+
+.get-started__title {
+  font-size: 68px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: var(--main-green-color);
+}
+
+.get-started__text {
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  line-height: 1.5em;
+  margin: 20px 0px 50px 0px;
+}
+
+.get-started__button {
+  background-color: #01996d;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  width: 230px;
+  height: 65px;
+  padding: 13px;
+  transition: 0.5s;
+}
+
+.get-started__button--hover:hover {
   background-color: #00b884;
 }
