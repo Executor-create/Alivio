@@ -20,7 +20,7 @@ a {
 
 .header__container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   padding: 10px;
 }
@@ -88,7 +88,7 @@ a {
 
 .get-started__text-wrapper {
   position: absolute;
-  left: 170px;
+  left: 120px;
   top: 280px;
 }
 
@@ -121,4 +121,76 @@ a {
 
 .get-started__button--hover:hover {
   background-color: #00b884;
+}
+
+.steps-block {
+  width: 100%;
+}
+
+.steps-block__container {
+  padding: 20px;
+}
+
+.steps-block__text-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.steps-block__text {
+  font-size: 24px;
+  font-family: "Lato", sans-serif;
+}
+
+.steps-block__title {
+  color: var(--main-green-color);
+  font-size: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.4em;
+}
+
+.steps-block__description {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  line-height: 1.5em;
+}
+
+.steps-block__item-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.steps-block__item {
+  margin: 25px;
+}
+
+.steps-block__item-number {
+  font-size: 128px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #111111;
+  opacity: 20%;
+}
+
+.steps-block__item-title {
+  font-size: 26px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.steps-block__item-text {
+  color: var(--main-text-color);
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 50px;
+}
+
+.steps-block__item-img {
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+.steps-block__item:nth-child(2) {
+  position: relative;
+  top: 150px;
 }
