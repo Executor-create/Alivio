@@ -13,6 +13,8 @@ a {
   --main-green-color: #01996d;
 }
 
+/********** Header start ************/
+
 .header {
   width: 100%;
   border-bottom: 1px solid #d6d6d6;
@@ -75,6 +77,10 @@ a {
   background-color: #00b884;
 }
 
+/*********** Header end ***********/
+
+/*********** Get-started start ***********/
+
 .get-started {
   width: 100%;
   height: 900px;
@@ -122,6 +128,10 @@ a {
 .get-started__button--hover:hover {
   background-color: #00b884;
 }
+
+/*********** Get-started end ***********/
+
+/*********** Steps-block start ***********/
 
 .steps-block {
   width: 100%;
@@ -191,6 +201,10 @@ a {
   max-width: 100%;
 }
 
+/*********** Steps-block end ***********/
+
+/*********** Story-block start ***********/
+
 .story-block {
   background-color: #245852;
 }
@@ -240,3 +254,110 @@ a {
 .story-block__video {
   max-width: 100%;
 }
+
+/*********** Story-block end ***********/
+
+/*********** Our-product start ***********/
+
+.our-product {
+  height: 800px;
+}
+
+.our-product__container {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px;
+  position: relative;
+}
+
+.our-product__customize {
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 20%;
+  padding: 20px;
+  text-align: center;
+  position: absolute;
+  bottom: -50px;
+  left: 50px;
+  box-shadow: -5px 5px 20px rgb(200, 200, 200);
+}
+
+.our-product__customize-subtitle {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.our-product__customize-line {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.our-product__customize-photo {
+  border-radius: 150px;
+  width: 80px;
+  height: 80px;
+  margin: 20px 0px 10px 0;
+}
+
+.our-product__customize-name {
+  font-family: "Lato", sans-serif;
+}
+
+.our-product__customize-contents {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 20px 0 20px 0;
+}
+
+.skills-list {
+  list-style: none;
+}
+
+.skills-list__item {
+  font-family: "Lato", sans-serif;
+  margin: 20px;
+}
+
+.our-product__subtitle {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.our-product__title {
+  color: var(--main-green-color);
+  font-size: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.5em;
+  margin-bottom: 15px;
+}
+
+.our-product__text {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  margin-bottom: 25px;
+}
+
+.our-product__button {
+  background-color: #01996d;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  width: 230px;
+  height: 65px;
+  padding: 13px;
+  transition: 0.5s;
+}
+
+.our-product__button--hover:hover {
+  background-color: #00b884;
+}
+
+/*********** Our-product end ***********/
+
+/*********** Footer start ***********/
