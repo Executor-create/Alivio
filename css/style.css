@@ -135,6 +135,7 @@ a {
 
 .steps-block {
   width: 100%;
+  height: 100%;
 }
 
 .steps-block__container {
@@ -175,6 +176,11 @@ a {
 .steps-block__item {
   height: 100%;
   margin: 25px;
+  position: relative;
+}
+
+.steps-block__item:nth-child(2) {
+  margin-top: 150px;
 }
 
 .steps-block__item-number {
@@ -182,16 +188,20 @@ a {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #111111;
   opacity: 20%;
+  margin-bottom: 50px;
 }
 
 .steps-block__item-title {
-  font-size: 26px;
+  font-size: 28px;
   font-family: Georgia, "Times New Roman", Times, serif;
+  position: absolute;
+  top: 97px;
+  left: 80px;
 }
 
 .steps-block__item-text {
   color: var(--main-text-color);
-  font-size: 18px;
+  font-size: 20px;
   font-family: "Lato", sans-serif;
   margin-bottom: 50px;
 }
@@ -265,7 +275,7 @@ a {
 
 .our-product__container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding: 60px;
   position: relative;
 }
@@ -279,7 +289,7 @@ a {
   position: absolute;
   bottom: -50px;
   left: 50px;
-  box-shadow: -5px 5px 20px rgb(200, 200, 200);
+  box-shadow: -3px 3px 20px rgb(200, 200, 200);
 }
 
 .our-product__customize-subtitle {
@@ -361,3 +371,61 @@ a {
 /*********** Our-product end ***********/
 
 /*********** Footer start ***********/
+
+.footer {
+  background-color: #245852;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.footer__logo {
+  color: white;
+  font-size: 40px;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 35px;
+}
+
+.offers-list {
+  list-style: none;
+}
+
+.offers-list__item {
+  margin-bottom: 40px;
+}
+
+.offers-list__link {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.footer__media-wrapper {
+  margin-top: auto;
+}
+
+.footer__media-img {
+  width: 80px;
+  margin: 10px;
+}
+
+.footer__download-wrapper {
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: 25px;
+}
+
+.footer__download-text {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.footer__download-img {
+  width: 180px;
+  height: 60px;
+}
